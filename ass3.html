@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ass3.css">
+    <title>Interactive To-Do List and Countdown Timer</title>
+</head>
+<body>
+    <div class="container">
+        <h1>My To-Do List</h1>
+        <div id="errorContainer"></div> 
+        <input type="text" id="taskInput" placeholder="Add a new task">
+        <button id="addTask">Add</button>
+        <ul id="taskList">
+            
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>Countdown Timer</h1>
+        <div id="timer-container">
+            <input type="number" id="durationInput" placeholder="Set Timer (in seconds)">
+            <button id="startTimer">Start</button>
+            <div id="timer"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Interactive Tabs</h1>
+        <div class="tab-container">
+            <button class="tab active">Tab 1</button>
+            <button class="tab">Tab 2</button>
+            <button class="tab">Tab 3</button>
+        </div>
+        <div class="tab-content">
+            <p>This is the content for Tab 1.</p>
+        </div>
+        <div class="tab-content">
+            <p>This is the content for Tab 2.</p>
+        </div>
+        <div class="tab-content">
+            <p>This is the content for Tab 3.</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h1>Simple Animation</h1>
+        <button id="animateButton">Animate</button>
+        <div id="animatedElement" style="margin-top: 15px;">Fade animation.</div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
